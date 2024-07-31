@@ -1,0 +1,197 @@
+<!doctype html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sorel.css">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+  <body class="border-box">
+
+    <header class="w-fuff" >
+      <h1 class="hidden">SorelleSELLING Meubles et Literie</h1>
+      <p class="hidden">Découvrez notre large gamme de produits de qualité</p>
+      <nav class="flex justify-between h-20 p-9 bg-slate-600 p-12 ">
+        <a class="bg-transparent text-zinc-50 sm:mt-[-15px]">Sorelle Sell</a>
+        <ul class="nav-menu">
+          <li><a class="nav-link" href="#matelas">Matelas</a></li>
+          <li><a class="nav-link" href="#fauteuils">Fauteuils</a></li>
+          <li><a class="nav-link" href="#canapes">Canapés</a></li>
+          <li><a class="nav-link" href="#armoires">Armoires</a></li>
+          <li><a class="nav-link" href="#restaurants">Restauration</a></li>
+          <li><a class="nav-link" href="#prestations">Prestations</a></li>
+          <li><a class="nav-link" href="#contacts">Contacts</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar sm:hidden"></span>
+          <span class="bar sm:hidden"></span>
+          <span class="bar sm:hidden"></span>
+      </div>
+      </nav>
+      
+    </header>
+    <main class="justify-items-center sm: grid ">
+      <div id="matelas" class="product-container">
+        <h2 class="section-title">Nos Produits</h2>
+      
+        <div class="block sm : grid sm:grid-cols-3">
+          <div class="product-card" style="background-image: url('img/WhatsApp Image 2024-07-16 at 05.54.17.jpeg');">
+            <div class="product-info">
+              <div class="price">25000 FCFA</div>
+              <a href="#" class="btn">Table basse en bois ronde</a>
+            </div>
+          </div>
+      
+
+          <div class="product-card" style="background-image: url('img/WhatsApp Image 2024-07-16 at 05.54.17 (1).jpeg');">
+            <div class="product-info">
+              <div class="price">15000 FCFA</div>
+              <a href="#" class="btn">Etagère murale trois niveaux</a>
+            </div>
+          </div>
+      
+
+          <div class="product-card" style="background-image: url('img/WhatsApp Image 2024-07-16 at 05.54.18.jpeg');">
+            <div class="product-info">
+              <div class="price">105000 FCFA</div>
+              <a href="#" class="btn">Meuble de salle de bain avec un miroir rond et des tiroirs</a>
+            </div>
+          </div>
+        </div>
+
+      
+        <div class="block sm : grid sm:grid-cols-3">
+          <div class="product-card" style="background-image: url('img/WhatsApp Image 2024-07-16 at 05.54.17 (2).jpeg');">
+            <div class="product-info">
+              <div class="price">20000 FCFA</div>
+              <a href="#" class="btn">Etagère murale</a>
+            </div>
+          </div>
+      
+
+          <div class="product-card" style="background-image: url('img/WhatsApp Image 2024-07-16 at 05.54.19 (1).jpeg');">
+            <div class="product-info">
+              <div class="price">350000 FCFA</div>
+              <a href="#" class="btn">Canapé gris clair avec des coussins</a>
+            </div>
+          </div>
+      
+
+          <div class="product-card" style="background-image: url('img/WhatsApp Image 2024-07-16 at 05.54.19.jpeg');">
+            <div class="product-info">
+              <div class="price">200000 FCFA</div>
+              <a href="#" class="btn">Meubles de cuisine blancs et en bois</a>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      <!-- La section qui affichera l'image -->
+      <div id="imageModal" class="modal">
+        <!-- <span class="close">&times;</span> -->
+        <img class="modal-content" id="modalImage">
+      </div>
+      <div id="restaurants" class="restaurant-container">
+
+        <h2 class="section-title">Nos Restaurants</h2>
+
+        <div class="block sm : grid sm:grid-cols-3">
+
+          <div class="restaurant-card">
+            <img src="restaurant1.jpg" alt="">
+            <div class="restaurant-info">
+              <h3>Restaurant 1</h3>
+              <p>Description du restaurant 1</p>
+              <a href="#" class="btn">Réserver</a>
+            </div>
+          </div>
+
+
+          <div class="restaurant-card">
+            <img src="restaurant2.jpg" alt="">
+            <div class="restaurant-info">
+              <h3>Restaurant 2</h3>
+              <p>Description du restaurant 2</p>
+              <a href="#" class="btn">Réserver</a>
+            </div>
+          </div>
+
+
+          <div class="restaurant-card">
+            <img src="restaurant3.jpg" alt="">
+            <div class="restaurant-info">
+              <h3>Restaurant 3</h3>
+              <p>Description du restaurant 3</p>
+              <a href="#" class="btn">Réserver</a>
+            </div>
+        </div>
+      </div>
+      </div>
+      <div id="prestations" class="service-container ">
+
+        <h2 class="section-title">Nos Prestations</h2>
+
+        <div class="block sm : grid sm:grid-cols-3">
+
+          <div class="service-card">
+            <img src="livraison.jpg" alt="Livraison">
+            <div class="service-info">
+              <h3>Livraison</h3>
+              <p>Nos équipes assurent la livraison de vos achats à domicile.</p>
+              <div class="price">Gratuit</div>
+            </div>
+          </div>
+
+
+          <div class="service-card">
+
+            <img src="installation.jpg" alt="Installation">
+
+            <div class="service-info">
+              <h3>Installation</h3>
+              <p>Nos techniciens qualifiés installent vos meubles avec soin.</p>
+              <div class="price">39€</div>
+            </div>
+          </div>
+
+
+          <div class="service-card">
+
+            <img src="reparation.jpg" alt="Réparation">
+
+            <div class="service-info">
+              <h3>Réparation</h3>
+              <p>Nos ateliers assurent la réparation de vos meubles et literie.</p>
+              <div class="price">À partir de 59€</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <footer id="contacts">
+      <p>&copy; 2023 Meubles et Literie. Tous droits réservés.</p>
+    </footer>
+    
+    <script src="sorel.js"></script>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navmenu = document.querySelector(".nav-menu");
+  
+      hamburger.addEventListener("click", () => {
+          hamburger.classList.toggle("active");
+          navmenu.classList.toggle("active");
+      })
+  
+      document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () =>{
+          hamburger.classList.remove("active");
+          navmenu.classList.remove("active");
+      }))
+      
+  
+     </script>
+  </body>
+
+</html>
